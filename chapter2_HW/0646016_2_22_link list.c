@@ -1,15 +1,13 @@
-/*¸êµ²§@·~_HW2-22
-  ©m¦W¡G±i§¹¦p
-  ¾Ç¸¹¡G0646016
+/*è³‡çµä½œæ¥­_HW2-22
 */
 
-/*ÃD¥Ø¡G
+/*é¡Œç›®ï¼š
   Write the iterative version of the Fibonacci series algorithm using the hints given
   in Project 21. Note that step c in Project 21 will be different because factorial
   uses two recursive calls in the last statement
-  (±NFibonacci Seriesªº»¼°j¦¡¡A¥HÅ|¥N§ï¼g)
+  (å°‡Fibonacci Seriesçš„éè¿´å¼ï¼Œä»¥ç–Šä»£æ”¹å¯«)
 
-  Project 21¡G
+  Project 21ï¼š
   a. Use a variable to replace the procedure call.
   b. Use a loop with the limit condition as the base case (or its complement).
   c. Enclose all executable statements inside the loop.
@@ -17,7 +15,7 @@
   e. Use appropriate statements to reassign values to parameters.
   f. Return the value of the variable defined in step a.
 
-  //¨Ï¥ÎAlgorithm 2-2
+  //ä½¿ç”¨Algorithm 2-2
 */
 
 #include <stdio.h>
@@ -29,7 +27,7 @@ int main()
     int *a;
     a = (int*)malloc(sizeof(int)*size);
 
-    printf("Please enter series size¡G");
+    printf("Please enter series sizeï¼š");
     scanf("%d", &size);
 
 
