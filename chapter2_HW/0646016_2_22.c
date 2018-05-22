@@ -1,6 +1,4 @@
-/*∏Íµ≤ß@∑~_HW2-22
-  ©m¶W°G±ißπ¶p
-  æ«∏π°G0646016
+/*Ë≥áÁµê‰ΩúÊ•≠_HW2-22
 */
 
 #include <stdio.h>
@@ -12,7 +10,7 @@ int main()
     int *a;
     a = (int*)malloc(sizeof(int)*size);
 
-    printf("Please enter series size°G");
+    printf("Please enter series sizeÔºö");
     scanf("%d", &size);
 
 
