@@ -1,13 +1,12 @@
-/*¸êµ²§@·~_HW2-16
-  ©m¦W¡G±i§¹¦p
-  ¾Ç¸¹¡G0646016
+/*è³‡çµä½œæ¥­_HW2-16
+  
 */
 
-/*ÃD¥Ø¡G
+/*é¡Œç›®ï¼š
   Write a recursive C function to calculus the square root of a number using Newton's method.
   Test your function by printing the square root of 125, 763, and 997.
 
-  Newton's method Ãö«Y¦¡:
+  Newton's method é—œä¿‚å¼:
   squareRoot(num, ans, tol)=
         //ans                                             if |ans^2 - num| <= tol //
         //squareRoot(num, (ans^2 + num)/(2*ans), tol)      otherwise              //
@@ -23,7 +22,7 @@
     end if
   end algorithm
 
-  //num:±ı­pºâªº­È  ans:¶}®Ú¸¹¤§¦¸¤è  tol:¤½®ttolerance
+  //num:æ¬²è¨ˆç®—çš„å€¼  ans:é–‹æ ¹è™Ÿä¹‹æ¬¡æ–¹  tol:å…¬å·®tolerance
 
 */
 
@@ -38,13 +37,13 @@ int main()
     float num,ans,tol,sR;
 
     for(i=0;i<3;i++){
-       printf("Please enter an integer¡G");
+       printf("Please enter an integerï¼š");
     scanf("%f", &num);
     ans=2;
     tol=0.01;
 
     sR= squareRoot(num, ans, tol);
-    printf("<<The square root of number¡G%f>>\n\n", sR);
+    printf("<<The square root of numberï¼š%f>>\n\n", sR);
     }
 
 }
